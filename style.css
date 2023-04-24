@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+nav {
+  height: 4em;
+}
+#toolkit {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#canvas {
+  border: 1px solid steelblue;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}

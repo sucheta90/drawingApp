@@ -8,6 +8,37 @@
     <title>Drawing App Demo</title>
   </head>
   <body>
+    <nav>
+      <section class="container">
+        <h1 class="main-header">Drawing App</h1>
+        <ul id="toolkit">
+          <li>
+            <label>
+              Colors
+              <input id="color-selector" type="color" value="" />
+            </label>
+          </li>
+          <li>
+            <label for="line-width">
+              Line width
+              <input
+                type="number"
+                name="line-width"
+                id="line-width"
+                value="5"
+              />
+            </label>
+          </li>
+          <li><button type="button" id="clear-btn">Clear Page</button></li>
+        </ul>
+      </section>
+    </nav>
+    <main>
+      <section class="container">
+        <canvas id="canvas"></canvas>
+      </section>
+    </main>
+
     <script src="./script.js"></script>
   </body>
 </html>
