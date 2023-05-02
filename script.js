@@ -12,11 +12,6 @@ const lineWidth = document.getElementById("line-width"); // line-width input
 
 const colorSelector = document.getElementById("color-selector"); // color input
 
-// console.log(`canvas width${canvas.width}`);
-// console.log(`canvas height${canvas.height}`);
-// console.log(`canvas offsetX ${canvas.offsetLeft}`);
-// console.log(`canvas offsetY${canvas.offsetTop}`);
-
 //Global Variables:
 let isPainting = false;
 
